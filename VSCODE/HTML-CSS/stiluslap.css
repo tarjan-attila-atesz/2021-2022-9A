@@ -1,0 +1,17 @@
+h1,
+h2 {
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16pt;
+    font-style: oblique;
+    text-align: justify;
+}
+
+.masodikresz {
+    font-style: normal;
+}
