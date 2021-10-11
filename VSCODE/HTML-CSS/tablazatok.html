@@ -10,36 +10,179 @@
 <body>
     <table>
         <!-- ez lesz az első sor a fejléc elemekkel-->
-    
         <tr>
-        
             <th>Ország</th>
-        
             <th>Főváros</th>
         </tr>
         <!-- itt van az első sor vége-->
         <!-- itt kezdődik a második sor -->
         <tr>
-        
             <td>Afganisztán</td>
-        
             <td>Kabul</td>
         </tr>
         <!-- ez a harmadik sor -->
         <tr>
-        
             <td>Albánia</td>
-        
             <td>Tirana</td>
         </tr>
         <tr>
-        
             <td>Algéria</td>
-        
             <td>Algír</td>
         </tr>
     </table>
+    <br>
+    <table border="1">
+        <caption>Országok fővárosa és népessége</caption>
 
+        <tr>
+
+            <th scope="col">Ország</th>
+
+            <th scope="col">Főváros</th>
+
+            <th scope="col">Népesség</th>
+        </tr>
+        <tr>
+
+            <th scope="row">Afganisztán</th>
+
+            <td>Kabul</td>
+
+            <td>25 500 100 fő</td>
+        </tr>
+        <tr>
+            <th scope="row">Albánia</th>
+
+            <td>Tirana</td>
+
+            <td>2 831 741 fő</td>
+        </tr>
+        <tr>
+
+            <th scope="row">Algéria</th>
+
+            <td>Algír</td>
+
+            <td>37 100 000 fő</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1">
+        <caption>Országok fővárosa és népessége</caption>
+        <thead>
+
+            <tr>
+
+                <th scope="col">Ország</th>
+
+                <th scope="col">Főváros</th>
+
+                <th scope="col">Népesség</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+
+                <td>Forrás: Wikipedia</td>
+
+                <td></td>
+
+                <td></td>
+                <!-- Itt igazából egy cellára lenne szükség, így ezeket össze kellene vonni. Erre nézünk példát később. -->
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+
+                <th scope="row">Afganisztán</th>
+
+                <td>Kabul</td>
+
+                <td>25 500 100 fő</td>
+            </tr>
+            <tr>
+
+                <th scope="row">Albánia</th>
+
+                <td>Tirana</td>
+
+                <td>2 831 741 fő</td>
+            </tr>
+            <tr>
+
+                <th scope="row">Algéria</th>
+
+                <td>Algír</td>
+
+                <td>37 100 000 fő</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <table border="1">
+        <colgroup span="2"></colgroup>
+
+
+        <tr>
+
+            <th colspan="2">Név</th>
+
+            <th colspan="2">Telefonszám</th>
+
+            <th>Nem</th>
+        </tr>
+
+        <tr>
+
+            <th>Vezetéknév</th>
+
+            <th>Keresztnév</th>
+
+            <th>Körzetszám</th>
+
+            <th>Kapcsolási szám</th>
+
+            <th></th>
+        </tr>
+
+        <tr>
+
+            <td>Kovács</td>
+
+            <td>Viktor</td>
+
+            <td>45</td>
+
+            <td>555465</td>
+
+            <td>Férfi</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1">
+
+        <tr>
+
+            <th scope="row" rowspan="3">Név</th>
+
+            <th scope="row">Titulus</th>
+
+            <td>Dr.</td>
+        </tr>
+        <tr>
+
+            <th scope="row">Vezetéknév</th>
+
+            <td>Kovács</td>
+        </tr>
+        <tr>
+
+            <th scope="row">Keresztnév</th>
+
+            <td>Henrik</td>
+        </tr>
+    </table>
 
 
 
