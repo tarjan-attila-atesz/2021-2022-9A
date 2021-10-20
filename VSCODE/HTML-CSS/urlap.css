@@ -1,0 +1,36 @@
+body {
+    background-color: #B1AB9D;
+}
+
+legend {
+    color: #fff;
+    background-color: #97293F;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+form {
+    background-color: #B1AB9D;
+    width: 90%;
+    max-width: 550px;
+    padding: 10px 5px 10px 5px;
+}
+
+fieldset {
+    margin: 10px;
+    border: 2px solid #97293F;
+    background-color: #F5EED7;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+input+label {
+    display: inline;
+}
+
+display: inline (sorban helyezi el az infokat) block (egymás alatt) inherit (orokli az elődjét) padding: belső kitöltés margin: külső margó

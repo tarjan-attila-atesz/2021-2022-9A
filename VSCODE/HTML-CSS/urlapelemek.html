@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="urlap.css" type="text/css">
+    <title>Űrlapelemek</title>
+</head>
+
+<body>
+
+    <form action="mailto:valaki@valahol.hu" method="post" enctype="text/plain" name="UrlapKezd">
+
+        <!-- űrlap elemek helye-->
+        <fieldset>
+            <legend>Regisztráció</legend>
+            <label for="username">Felhasználó név:</label>
+            <input type="text" name="username" id="username" placeholder="Felhasználói név">
+            <br>
+            <label for="password">Jelszó: </label>
+            <input type="password" name="password" id="password" placeholder="Jelszó">
+        </fieldset>
+        <fieldset>
+            <legend>Vélemény rovat</legend>
+            <!-- csoportosítva -->
+            <!-- Szovegterulet 50 sor 10 oszlop cimkevel -->
+
+            <label for="velemeny">Véleményem a weboldalról!</label><br>
+            <textarea id="velemeny" rows="10" cols="50" name="Velemeny" placeholder="Véleményem" required="required"></textarea>
+
+
+            <p>
+                <input type="submit" value="Küldés" />
+                <input type="reset" value="Törlés" />
+            </p>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
