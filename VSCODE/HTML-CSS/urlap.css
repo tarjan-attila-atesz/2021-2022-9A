@@ -4,10 +4,13 @@ body {
 
 legend {
     color: #fff;
+    /*betűszín*/
     background-color: #97293F;
     font-weight: bold;
     border-radius: 5px;
+    /*lekerítés*/
     padding: 5px 10px;
+    /*külső margó*/
 }
 
 form {
@@ -26,11 +29,12 @@ fieldset {
 
 label {
     display: block;
+    /*egymas ala helyezi az elemek*/
     margin: 10px 0 5px 0;
+    /*belső margó */
 }
 
 input+label {
     display: inline;
+    /*sorban helyezi el az elemeket*/
 }
-
-display: inline (sorban helyezi el az infokat) block (egymás alatt) inherit (orokli az elődjét) padding: belső kitöltés margin: külső margó
