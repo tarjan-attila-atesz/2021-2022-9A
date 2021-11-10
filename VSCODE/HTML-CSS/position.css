@@ -1,0 +1,30 @@
+body {
+    background-color: grey;
+}
+
+#doboz1 {
+    position: absolute;
+    width: 150px;
+    left: 10px;
+    top: 10px;
+    background-color: aquamarine;
+    color: black;
+}
+
+#doboz2 {
+    position: absolute;
+    width: 50%;
+    left: 180px;
+    top: 10px;
+    background-color: red;
+    color: white;
+}
+
+#doboz3 {
+    position: absolute;
+    left: 80%;
+    width: 18%;
+    top: 10px;
+    background-color: black;
+    color: white;
+}
