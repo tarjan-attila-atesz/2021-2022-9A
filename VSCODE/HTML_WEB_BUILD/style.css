@@ -1,0 +1,52 @@
+nav {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: magenta;
+    font-weight: bold;
+}
+
+
+/*Main formazasok*/
+
+.maininfo {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    height: 600px;
+    background-color: black;
+    color: white;
+}
+
+.lead {
+    text-align: left;
+    color: magenta;
+    font-size: 12px;
+    text-transform: none;
+}
+
+.search {
+    text-align: left;
+    color: yellow;
+    font-size: 12px;
+    text-transform: none;
+}
