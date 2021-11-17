@@ -50,3 +50,9 @@ a:hover {
     font-size: 12px;
     text-transform: none;
 }
+
+#kep {
+    border: 3px solid white;
+    border-radius: 1px;
+    height: 50%;
+}
