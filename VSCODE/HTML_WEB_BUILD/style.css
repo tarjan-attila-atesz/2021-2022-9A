@@ -51,7 +51,7 @@ a:hover {
     text-transform: none;
 }
 
-#kep {
+.kep {
     border: 3px solid white;
     border-radius: 1px;
     height: 50%;
