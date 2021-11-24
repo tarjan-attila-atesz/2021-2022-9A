@@ -1,0 +1,47 @@
+div#doboz1 {
+    position: absolute;
+    left: 1%;
+    width: 18%;
+    top: 150px;
+    color: blue;
+}
+
+div#doboz2 {
+    position: absolute;
+    left: 22%;
+    width: 55%;
+    top: 150px;
+    color: red;
+    background-color: black;
+    text-align: justify;
+}
+
+div#doboz3 {
+    position: absolute;
+    width: 18%;
+    left: 80%;
+    top: 150px;
+}
+
+div#footerDoboz {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    padding: 50px;
+    margin: 30px;
+    background-color: aquamarine;
+}
+
+nav li {
+    display: inline;
+    padding: 5px 20px;
+    border-right: 1px dotted black;
+    margin: 0;
+    list-style-type: none;
+}
