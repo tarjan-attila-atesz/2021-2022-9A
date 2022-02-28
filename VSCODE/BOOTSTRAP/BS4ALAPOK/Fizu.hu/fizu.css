@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
 html {
     font-size: 16px;
+    color: black;
 }
 
 
@@ -82,4 +83,5 @@ html {
 
 .bg-green {
     background-color: rgba(171, 218, 10, 0.2);
+    color: black;
 }
