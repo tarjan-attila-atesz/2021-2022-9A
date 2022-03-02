@@ -85,3 +85,56 @@ html {
     background-color: rgba(171, 218, 10, 0.2);
     color: black;
 }
+
+
+/*Footer*/
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #CEFF25;
+}
+
+footer i {
+    font-size: 1.5rem;
+}
+
+.line {
+    margin: 0 0 1em;
+    line-height: 2em;
+    padding: 0;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.line:before,
+.line:after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    margin-left: -999em;
+    height: 2px;
+    width: 998em;
+    border-top: 1px solid #fff;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.line::after {
+    left: auto;
+    width: 998em;
+    margin: 0 0 0 1em;
+}
+
+@media(min-width: 728px) {
+    html {
+        font-size: 18px;
+    }
+}
